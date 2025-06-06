@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.title {
+  position: relative;
+  width: fit-content;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 30%;
+  height: 10px;
+  border-radius: 10px;
+  background-color: var(--color-secondary);
+}
+
+.hero-section {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.jesus {
+  background-image:
+    linear-gradient(to bottom,
+      #837a5faa,
+      rgba(0, 0, 0, 0.3)),
+    url('./assets/images/cross.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.value-img {
+  background-image:
+    linear-gradient(to bottom,
+      #837a5faa,
+      rgba(0, 0, 0, 0.3)),
+    url('./assets/images/worship-img2.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.vision-img {
+  background-image:
+    linear-gradient(to bottom,
+      #837a5faa,
+      rgba(0, 0, 0, 0.3)),
+    url('./assets/images/worship-img3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.story-img {
+  background-image:
+    linear-gradient(to bottom,
+      #837a5faa,
+      rgba(0, 0, 0, 0.3)),
+    url('./assets/images/worship-img4.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hub-program-img {
+  background-image:
+    linear-gradient(to bottom,
+      #837a5faa,
+      rgba(0, 0, 0, 0.3)),
+    url('./assets/images/hubs.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.youth-program-img {
+  background-image:
+    linear-gradient(to bottom,
+      #837a5faa,
+      rgba(0, 0, 0, 0.3)),
+    url('./assets/images/youth.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.children-program-img {
+  background-image:
+    linear-gradient(to bottom,
+      #837a5faa,
+      rgba(0, 0, 0, 0.3)),
+    url('./assets/images/children.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
