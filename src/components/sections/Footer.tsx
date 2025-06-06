@@ -6,7 +6,7 @@ import { FaYoutube } from "react-icons/fa6";
 import { Link } from "react-router";
 import { sectionIds } from "./sectionIds";
 import { useEffect, useState } from "react";
-import { getInfo, getSocials, type Socials } from "@/actions/layoutActions";
+import { getInfo, getSocials, type Info, type Socials } from "@/actions/layoutActions";
 import { PortableText } from "@portabletext/react";
 
 

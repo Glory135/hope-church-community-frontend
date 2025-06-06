@@ -19,8 +19,8 @@ type JesusData = {
   title: string
   content: PortableTextContent[]
   imageUrl: ImageType
-  followingTitle?: string
-  followingContent?: PortableTextContent[]
+  followingTitle: string
+  followingContent: PortableTextContent[]
 }
 
 const JesusSkeleton = () => {
