@@ -1,12 +1,18 @@
-import { useEffect } from 'react';
-import { useLocation } from 'react-router';
+// src/components/ScrollToTop.tsx
+import { useEffect } from "react";
+import { useLocation } from "react-router";
+
+const MOBILE_BREAKPOINT = 768; // px
 
 const ScrollToTop = () => {
-	const { pathname } = useLocation();
+	const location = useLocation();
 
 	useEffect(() => {
-		window.scrollTo(0, 0);
-	}, [pathname]);
+		const isMobile = window.innerWidth < MOBILE_BREAKPOINT;
+		if (isMobile) {
+			window.scrollTo({ top: 0, behavior: "smooth" });
+		}
+	}, [location.pathname]); // trigger only on path change
 
 	return null;
 };

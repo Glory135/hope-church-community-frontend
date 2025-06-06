@@ -8,7 +8,7 @@ import AboutPage from './pages/AboutPage'
 import ActivitiesPAge from './pages/ActivitiesPAge'
 import ProgramsPage from './pages/ProgramsPage'
 import ContactUsPage from './pages/ContactUsPage'
-// import ScrollToTop from './components/crollTotop'
+import ScrollToTop from './components/crollTotop'
 
 function App() {
 
@@ -16,7 +16,7 @@ function App() {
     <main className='w-full min-h-screen h-auto flex flex-col items-center'>
       <BrowserRouter>
         <ScrollToHashElement />
-        {/* <ScrollToTop /> */}
+        <ScrollToTop />
         <TopBar />
         <Routes>
           <Route path='/' element={<HomePage />} />
