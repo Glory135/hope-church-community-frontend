@@ -68,7 +68,7 @@ function Jesus() {
             backgroundImage: `linear-gradient(to bottom, #837a5f87, rgba(0, 0, 0, 0.571)), url(${urlFor(data?.imageUrl).url()})`
           }}
           className="jesus relative w-full h-full rounded-r-full bg-accent flex justify-center items-center overflow-hidden">
-          <h1 className="font-bold  text-9xl text-white text-center">{data.title}</h1>
+          <h1 className="font-bold  text-9xl text-white text-center">WHO IS JESUS</h1>
         </div>
         <div className="w-[105%] md:w-[110%] h-full absolute top-[5%] md:top-[10%] rounded-r-full left-0  -z-10 bg-muted" />
       </div>
